@@ -1,0 +1,41 @@
+body{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;    /*flex and justify only work when they both are declared*/
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color: rgb(220, 217, 217);
+}
+.digit{
+    font-size: 90px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 30px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    border: 0px;
+    cursor: pointer;
+}
+#start{
+    background-color: green;
+    color: aliceblue;
+}
+#stop{
+    background-color: red;
+    color: aliceblue;
+}
+#reset{
+    background-color: rgb(255, 0, 149);
+    color: aliceblue;
+}
